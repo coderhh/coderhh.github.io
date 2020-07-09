@@ -14,7 +14,7 @@ plugins:
 
 style: hacker
 
-footer: 'follow me on <a href="https://twitter.com/">twitter</a>'
+footer: 'follow me on <a href="https://twitter.com/YehangH">twitter</a>'
 
 # Build settings
 markdown: kramdown
