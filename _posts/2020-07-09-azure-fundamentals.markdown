@@ -7,13 +7,20 @@ categories:
 
 # Security, responsibility, and trust in Azure
 
-<br />
-Discuss the basic concepts for protecting your infrastructure and data when you work in the cloud. Understand what responsibilities are yours and what Azure takes care of for you.
-In this module, you will:
-* Learn how security responsibility is shared with Azure
-* Learn how identity management provides protection, even outside your network
-* Learn how encryption capabilities built into Azure can protect your data
-* Learn how to protect your network and virtual networks
-* Learn about advanced services and features Azure provides to keep your services and data secure and safe
 
-## Introduction
+1. Cloud security is a shared responsibility between you and your cloud provider. Which category of cloud services requires the greatest security effort on your part?
+
+  * Infrastructure as a service (IaaS)
+
+  * Platform as a service (PaaS)
+
+  * Software as a service (SaaS)
+
+2. Which of these options helps you most easily disable an account when an employee leaves your company?
+  
+  * Enforce multi-factor authentication (MFA)
+
+  * Monitor sign-on attempts
+
+  * Use single sign-on (SSO)
+
