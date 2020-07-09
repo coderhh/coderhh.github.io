@@ -34,7 +34,7 @@ categories:
 
    -[x] Encrypt data both as it sits in your database and as it travels over the network
    <br />
-4. There has been an attack on your public-facing website, and the application's resources have been overwhelmed and exhausted, and are now unavailable to users. What service      should you use to prevent this type of attack?
+4. There has been an attack on your public-facing website, and the application's resources have been overwhelmed and exhausted, and are now unavailable to users. What service should you use to prevent this type of attack?
    -[x] DDoS protection
 
    -[ ] Azure Firewall
@@ -44,7 +44,7 @@ categories:
    -[ ] Application Gateway
    <br />
 5. You want to store certificates in Azure to centrally manage them for your services. Which Azure service should you use?
-   -[ ]AIP
+   -[ ] AIP
 
    -[ ] Azure AD
 
