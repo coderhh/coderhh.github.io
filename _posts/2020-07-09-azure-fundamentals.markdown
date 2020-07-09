@@ -8,19 +8,19 @@ categories:
 # Security, responsibility, and trust in Azure
 
 
-1. Cloud security is a shared responsibility between you and your cloud provider. Which category of cloud services requires the greatest security effort on your part?
+- Cloud security is a shared responsibility between you and your cloud provider. Which category of cloud services requires the greatest security effort on your part?
 
-  * Infrastructure as a service (IaaS)
+     -[X] Infrastructure as a service (IaaS)
 
-  * Platform as a service (PaaS)
+     -[] Platform as a service (PaaS)
 
-  * Software as a service (SaaS)
+     -[] Software as a service (SaaS)
 
-2. Which of these options helps you most easily disable an account when an employee leaves your company?
+* Which of these options helps you most easily disable an account when an employee leaves your company?
   
-  * Enforce multi-factor authentication (MFA)
+     * Enforce multi-factor authentication (MFA)
 
-  * Monitor sign-on attempts
+     * Monitor sign-on attempts
 
-  * Use single sign-on (SSO)
+     * Use single sign-on (SSO)
 
