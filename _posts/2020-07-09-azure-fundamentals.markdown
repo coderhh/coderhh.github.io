@@ -7,7 +7,7 @@ categories:
 
 # Security, responsibility, and trust in Azure
 
-
+<br />
 Discuss the basic concepts for protecting your infrastructure and data when you work in the cloud. Understand what responsibilities are yours and what Azure takes care of for you.
 In this module, you will:
 * Learn how security responsibility is shared with Azure
@@ -16,7 +16,4 @@ In this module, you will:
 * Learn how to protect your network and virtual networks
 * Learn about advanced services and features Azure provides to keep your services and data secure and safe
 
-
 ## Introduction
-
-
