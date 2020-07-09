@@ -6,4 +6,4 @@ permalink: /
 
 # Welcome
 
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+Coding and Technology, love life!
