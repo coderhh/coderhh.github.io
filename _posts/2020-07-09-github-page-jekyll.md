@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Set Up Personal Blog on Github Pages using Jekyll'
-date: 2020-07-09 19:11:45 +0800
 categories:
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Azure Fundamentals'
-date: 2020-07-09 12:32:45 +0800
 categories:
 ---
 
