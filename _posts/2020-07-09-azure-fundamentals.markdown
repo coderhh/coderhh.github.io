@@ -36,7 +36,9 @@ categories:
    -[x] Encrypt data both as it sits in your database and as it travels over the network
    <br />
 
-4. There has been an attack on your public-facing website, and the application's resources have been overwhelmed and exhausted, and are now unavailable to users. What service should you use to prevent this type of attack? -[x] DDoS protection
+4. There has been an attack on your public-facing website, and the application's resources have been overwhelmed and exhausted, and are now unavailable to users. What service should you use to prevent this type of attack? 
+   
+   -[x] DDoS protection
 
    -[ ] Azure Firewall
 
@@ -45,7 +47,9 @@ categories:
    -[ ] Application Gateway
    <br />
 
-5. You want to store certificates in Azure to centrally manage them for your services. Which Azure service should you use? -[ ] AIP
+5. You want to store certificates in Azure to centrally manage them for your services. Which Azure service should you use? 
+   
+   -[ ] AIP
 
    -[ ] Azure AD
 
@@ -193,7 +197,7 @@ categories:
 
     <br />
 
-3.  Azure Advisor provides recommendations for \***\*\_\*\***.
+3.  Azure Advisor provides recommendations for _____.
 
     -[ ] Costs only
 
@@ -202,7 +206,7 @@ categories:
     -[ ] High availability, performance, and cost
     <br />
 
-4.  Azure Cost Management allows you to \***\*\_\*\***.
+4.  Azure Cost Management allows you to _____.
 
     -[x] See historical breakdowns of what services you are spending your money on.
 
