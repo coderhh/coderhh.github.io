@@ -95,29 +95,47 @@ function getFallbackRepositories() {
         {
             name: 'coderhh.github.io',
             html_url: 'https://github.com/coderhh/coderhh.github.io',
-            description: 'Personal portfolio website',
-            stargazers_count: 1,
+            description: 'LEGO-themed interactive portfolio',
+            stargazers_count: 2,
             forks_count: 0,
             language: 'HTML',
-            updated_at: '2025-09-09T08:00:00Z'
+            updated_at: '2025-09-09T15:30:00Z'
         },
         {
-            name: 'awesome-project',
-            html_url: 'https://github.com/coderhh/awesome-project',
-            description: 'An awesome project showcase',
+            name: 'lego-word-cloud',
+            html_url: 'https://github.com/coderhh/lego-word-cloud',
+            description: 'Dynamic repository visualization',
+            stargazers_count: 8,
+            forks_count: 3,
+            language: 'JavaScript',
+            updated_at: '2025-09-08T14:20:00Z'
+        },
+        {
+            name: 'modern-portfolio',
+            html_url: 'https://github.com/coderhh/modern-portfolio',
+            description: 'Responsive portfolio design',
             stargazers_count: 5,
             forks_count: 2,
-            language: 'JavaScript',
-            updated_at: '2025-09-08T12:00:00Z'
+            language: 'CSS',
+            updated_at: '2025-09-07T11:45:00Z'
         },
         {
-            name: 'demo-app',
-            html_url: 'https://github.com/coderhh/demo-app',
-            description: 'Demo application',
-            stargazers_count: 3,
+            name: 'api-integration',
+            html_url: 'https://github.com/coderhh/api-integration',
+            description: 'GitHub API integration demo',
+            stargazers_count: 12,
+            forks_count: 4,
+            language: 'TypeScript',
+            updated_at: '2025-09-06T16:30:00Z'
+        },
+        {
+            name: 'css-animations',
+            html_url: 'https://github.com/coderhh/css-animations',
+            description: 'Advanced CSS animation examples',
+            stargazers_count: 7,
             forks_count: 1,
-            language: 'Python',
-            updated_at: '2025-09-07T09:00:00Z'
+            language: 'CSS',
+            updated_at: '2025-09-05T10:15:00Z'
         }
     ];
 }
@@ -154,9 +172,9 @@ function renderRepositories() {
         return;
     }
 
-    // Sort repositories by stars + forks for sizing
+    // Sort repositories by latest update
     const sortedRepos = [...allRepositories].sort((a, b) => 
-        (b.stargazers_count + b.forks_count) - (a.stargazers_count + a.forks_count)
+        new Date(b.updated_at) - new Date(a.updated_at)
     );
 
     repositoriesGrid.innerHTML = `
